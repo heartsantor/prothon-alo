@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+
 }
 
 body {
@@ -14,6 +15,7 @@ html {
 }
 
 header {
+
     border-bottom: 1px solid rgba(124, 121, 121, 0.698);
     height: 65px;
 }
@@ -77,9 +79,8 @@ header nav ul li a {
 
 
 .fotter_t {
-    position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 150px;
     width: 100%;
     text-align: center;
     height: 150px;
@@ -97,7 +98,7 @@ header nav ul li a {
 .fotter_t .div_last {
     width: 25%;
     float: right;
-    padding: 13px;
+    padding: 7px;
 }
 
 .fotter_t .div_first ul {
@@ -120,8 +121,68 @@ header nav ul li a {
 
 .fotter_t .div_last ul li {
     padding: 10px;
+    text-align: left;
 }
 
 .fotter_t .div_last ul li a {
     text-decoration: none;
+}
+
+.fotter_t .div_last ul li img {
+    text-align: left;
+    margin-bottom: -8px;
+    height: 30px;
+    width: 30px;
+    padding: 0px 12px;
+}
+
+.last_footer {
+
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+
+.last_footer p {
+    text-align: left;
+    padding: 20px 14px;
+}
+
+.fst_sec {
+    background-color: rgb(231, 227, 227);
+    margin-top: 20px;
+}
+
+.fst_sec .table_c {
+    
+    background-color: white;
+    margin-top: 3px;
+    border-radius: 3px;
+    width: 300px;
+    display: inline-block;
+}
+
+.fst_sec .table_c img {
+    
+    padding: 2px;
+    width: 38%;
+    height: 75px;
+    float: left;
+}
+
+.fst_sec .table_c h2 {
+    color: black;
+    padding: 2px;
+    font-size: 15px;
+    width: 58%;
+    float: right;
+}
+.fst_sec .table_c h2:hover {
+    color: rgb(180, 57, 57);
+
 }
