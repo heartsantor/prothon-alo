@@ -75,9 +75,53 @@ header nav ul li a {
     transition: all 0.5s;
 }
 
-.fotter_t,.footer_s{
-    width: auto;
-    height: 200px;
+
+.fotter_t {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 150px;
     background-color: rgba(124, 121, 121, 0.698);
-    border-bottom: 1px solid #4a4a4a;
+}
+
+.fotter_t .div_first {
+    display: block;
+    font-size: 25px;
+    width: 70%;
+    padding: 10px;
+    float: left;
+}
+
+.fotter_t .div_last {
+    width: 25%;
+    float: right;
+    padding: 13px;
+}
+
+.fotter_t .div_first ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.fotter_t .div_first ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.fotter_t .div_first ul li a {
+    text-decoration: none;
+}
+
+.fotter_t .div_last ul {
+    list-style: none;
+}
+
+.fotter_t .div_last ul li {
+    padding: 10px;
+}
+
+.fotter_t .div_last ul li a {
+    text-decoration: none;
 }
