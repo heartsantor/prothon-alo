@@ -1,129 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <img src="Prothom-Alo.png" alt="" />
-        <ul>
-          <li><a href="#">আন্তর্জাতিক</a></li>
-          <li>
-            <a href="#">অর্থনীতি</a>
-            <ul>
-              <li><a href="#">সম্পাদকীয়</a></li>
-              <li><a href="#">কলাম</a></li>
-              <li><a href="#">সাক্ষাৎকার</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">মতামত</a>
-            <ul>
-              <li><a href="#">স্মরণ</a></li>
-              <li><a href="#">প্রতিক্রিয়া</a></li>
-            </ul>
-          </li>
-          <li><a href="#">খেলা</a></li>
-          <li><a href="#">বিনোদন</a></li>
-          <li><a href="#">উত্তর আমেরিকা</a></li>
-          <li><a href="#">ভিডিও</a></li>
-        </ul>
-        <div class="menu_item">
-          <!-- <img src="menu_bar.png" alt="" /> -->
-          <img src="man_p.png" alt="" />
-          <img src="search.png" alt="" />
-          <img src="like.png" alt="" />
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="fst_sec">
-        <div class="table_c">
-          <a href="#">
-            <img src="fst_t.webp" alt="" />
-            <h2>করোনার লক্ষণ দেখা দিলে যে নম্বরে যোগাযোগ করবেন</h2>
-          </a>
-        </div>
-        <br />
-        <div class="table_c">
-          <a href="#">
-            <img src="sec_d.webp" alt="" />
-            <h2>করোনা রোধে বাড়িতে কী করবেন</h2>
-          </a>
-        </div>
-        <br />
-        <div class="table_c">
-          <a href="#">
-            <img src="ted_d.webp" alt="" />
-            <h2>করোনায় ভয় পেলে আপনার হবে ক্ষতি</h2>
-          </a>
-        </div>
-      </section>
-      <section class="main-card">
-        <div class="div-wrapper">
-          <div>
-            <a href="#">
-              <img src="ted_d.webp" alt="" />
-              <h2>করোনায় ভয় পেলে আপনার হবে ক্ষতি</h2>
-              <p>
-                গত মঙ্গলবার জাতীয় প্রেসক্লাবে আদিবাসী ও সংখ্যালঘুবিষয়ক সংসদীয়
-                ককাসের উদ্যোগে ‘রাজশাহীতে দুজন আদিবাসী কৃষকের আত্মহত্যা ও
-                বরেন্দ্র অঞ্চলে সেচ পরিস্থিতি ও পানি ব্যবস্থাপনা’ নিয়ে এক
-                সেমিনারের আয়োজন করা হয়েছিল। বাংলাদেশে নানা বিষয় নিয়ে সরকারি ও
-                বিরোধী দলের রাজনীতিকেরা কথা বলেন। কিন্তু কৃষকের সমস্যা নিয়ে কথা
-                বলার কেউ আছেন বলে মনে হয় না।
-              </p>
-            </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="./index.html"><img src="Prothom-Alo.png" alt="" /></a>
+      <ul>
+        <li><a href="#">আন্তর্জাতিক</a></li>
+        <li>
+          <a href="#">অর্থনীতি</a>
+          <ul>
+            <li><a href="#">সম্পাদকীয়</a></li>
+            <li><a href="#">কলাম</a></li>
+            <li><a href="#">সাক্ষাৎকার</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">মতামত</a>
+          <ul>
+            <li><a href="#">স্মরণ</a></li>
+            <li><a href="#">প্রতিক্রিয়া</a></li>
+          </ul>
+        </li>
+        <li><a href="#">খেলা</a></li>
+        <li><a href="#">বিনোদন</a></li>
+        <li><a href="#">উত্তর আমেরিকা</a></li>
+        <li><a href="#">ভিডিও</a></li>
+      </ul>
+      <div class="menu_item">
+        <!-- <img src="menu_bar.png" alt="" /> -->
+        <a href="./signup.html" class="signup">Register</a>
+        <a href="./login.html" class="login">Login</a>
+      </div>
+    </nav>
+  </header>
+  <section class="intro-title">
+    <div class="fst_sec">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="table_c">
+              <a href="./card1.html" target="preview">
+                <img src="fst_t.webp" alt="" />
+                <h2>করোনার লক্ষণ দেখা দিলে যে নম্বরে যোগাযোগ করবেন</h2>
+              </a>
+            </div>
+            <br />
+            <div class="table_c">
+              <a href="./card2.html" target="preview">
+                <img src="sec_d.webp" alt="" />
+                <h2>করোনা রোধে বাড়িতে কী করবেন</h2>
+              </a>
+            </div>
+            <br />
+            <div class="table_c">
+              <a href="./card3.html" target="preview">
+                <img src="ted_d.webp" alt="" />
+                <h2>করোনায় ভয় পেলে আপনার হবে ক্ষতি</h2>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="div-wrapper">
+              <iframe src="./card1.html" name="preview"></iframe>
+            </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="fotter_t">
-        <div class="div_first">
-          <ul>
-            <li><a href=""></a>প্রচ্ছদ</li>
-            <li><a href=""></a>বাংলাদেশ</li>
-            <li><a href=""></a>আন্তর্জাতিক</li>
-            <li><a href=""></a>অর্থনীতি</li>
-            <li><a href=""></a>খেলা</li>
-            <li><a href=""></a>মতামত</li>
-            <li><a href=""></a>বিনোদন</li>
-            <li><a href=""></a>ফিচার</li>
-            <li><a href=""></a>জীবনযাপন</li>
-            <li><a href=""></a>বিজ্ঞান ও প্রযুক্তি</li>
-            <li><a href=""></a>অন্য আলো</li>
-            <li><a href=""></a>আমরা</li>
-            <li><a href=""></a>শিক্ষা</li>
-          </ul>
-        </div>
-        <div class="div_last">
-          <ul>
-            <li><img src="pic.png" alt="" />প্রচ্ছদ</li>
-            <li><img src="video.png" alt="" />বাংলাদেশ</li>
-            <li><img src="zip.png" alt="" />আন্তর্জাতিক</li>
-          </ul>
-        </div>
       </div>
-      <div class="last_footer">
-        <p>
-          © স্বত্ব প্রথম আলো ১৯৯৮ - ২০২০<br />
-          সম্পাদক ও প্রকাশক: মতিউর রহমান<br />
-          প্রগতি ইনস্যুরেন্স ভবন, ২০-২১ কারওয়ান বাজার, ঢাকা ১২১৫<br />
-          <br />
-          ফোন: ৮১৮০০৭৮-৮১, ফ্যাক্স: ৫৫০১২২০০, ৫৫০১২২১১ ইমেইল:
-          info@prothomalo.com<br />
-        </p>
+  </section>
+  <section class="pepole-comment-part728">
+    <div class="container">
+      <div class="row">
+        <div class="picture-part-hedaing">
+          <h3><a href="#"> মতামত</h3> </a>
+        </div>
+        <div class="col-md-3">
+          <div class="c-details72839">
+            <a href="#"><img src="img/ae36def30619d5968d29cde241b2d5d9-59d0ec65c908b.jpg" alt="IMage"></a>
+            <div class="content-details7238">
+              <a href="#">
+                <h2>‘ভাত দে মা’</h2>
+              </a>
+              <a href="#">
+                <p>অষ্টাদশ শতাব্দীতে রচিত ভারতচন্দ্র রায়গুণাকরের ‘অন্নদামঙ্গল’ কাব্যে ঈশ্বরী পাটনি দেবীর
+                  কাছে বর প্রার্থনা করেছিলেন, ‘আমার সন্তান যেন থাকে দুধে-ভাতে</p>
+              </a>
+              <h6>তুহিন ওয়াদুদ</h6>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+        <div class="col-md-3">
+          <div class="content-item812">
+            <a href="#"><img src="img/a3ae86309cc3f559e3e159afd63b2043-59d0c41bee0bd.jpg" alt="image"></a>
+            <div class="wrapper789">
+              <a href="#">
+                <p>পা পা করে এগিয়ে যাচ্ছেন সৌদি নারীরা</p>
+              </a>
+              <h6>সোহরাব হাসান</h6>
+            </div>
+
+          </div>
+          <hr>
+          <div class="content-item812">
+            <a href="#"><img src="img/india.jpg" alt="image"></a>
+            <div class="wrapper789">
+              <a href="#">
+                <p>
+                  ভারতীয় ঋণ: বিশেষজ্ঞ মত</p>
+              </a>
+              <h6>মতামত</h6>
+            </div>
+
+          </div>
+          <hr>
+          <div class="content-item812">
+            <a href="#"><img src="img/love.jpg" alt="image"></a>
+            <div class="wrapper789">
+              <a href="#">
+                <p>সহমর্মিতা নয়, প্রয়োজন সুষ্ঠু পরিকল্পনার</p>
+              </a>
+              <h6>সি আর আবরার</h6>
+            </div>
+
+          </div>
+          <hr>
+
+          <div class="content-item812">
+            <a href="#"><img src="img/chona.jpg" alt="image"></a>
+            <div class="wrapper789">
+              <a href="#">
+                <p>চীনের উন্নয়ন–দর্শন</p>
+              </a>
+              <h6>কামাল আহমেদ</h6>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="c-details72839">
+            <a href="#"><img src="img/dhaka.jpg" alt="IMage"></a>
+            <div class="content-details7238">
+              <a href="#">
+                <h2>টাকার জন্যই সান্ধ্য কোর্সে আগ্রহ</h2>
+              </a>
+              <a href="#">
+                <p>ঢাকা বিশ্ববিদ্যালয়ের বিভিন্ন বিভাগে সান্ধ্য কোর্সে ভর্তি হওয়া শিক্ষার্থীদের কাছ থেকে
+                  বছরে প্রায় ৬৬ কোটি টাকা আদায় হচ্ছে। এর ৬০ শতাংশ শিক্ষকেরা নিচ্ছেন।...</p>
+              </a>
+              <h6>আসিফুর রহমান</h6>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+        <div class="col-md-3">
+          <div class="content-item812">
+            <a href="#"><img src="img/cyclone.jpg" alt="image"></a>
+            <div class="wrapper789">
+              <p>অক্টোবরে হতে পারে ঘূর্ণিঝড়</p>
+              <h6>কমল জোহা খান</h6>
+            </div>
+
+          </div>
+          <hr>
+          <div class="content-item812">
+            <a href="#"><img src="img/presodent.gif" alt="image"></a>
+            <div class="wrapper789">
+              <p>লন্ডন থেকে ১০ ফাইল ছেড়েছেন প্রধানমন্ত্রী</p>
+              <h6>বাসস</h6>
+            </div>
+
+          </div>
+          <hr>
+          <div class="content-item812">
+            <a href="#"><img src="img/bird.jpg" alt="image"></a>
+            <div class="wrapper789">
+              <p>নীল–লেজ সুইচোরা</p>
+              <h6>আ ন ম আমিনুর </h6>
+            </div>
+
+          </div>
+          <hr>
+
+          <div class="content-item812">
+            <a href="#"><img src="img/law.jpg" alt="image"></a>
+            <div class="wrapper789">
+              <p>দ্বিতীয়বার অংশগ্রহণকারীদের নম্বর কাটা যাবে</p>
+              <h6>নিজস্ব প্রতিবেদক</h6>
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
-    </footer>
-  </body>
+
+
+    </div>
+
+
+
+  </section>
+  <footer>
+    <div class="fotter_t">
+      <div class="div_first">
+        <ul>
+          <li><a href=""></a>প্রচ্ছদ</li>
+          <li><a href=""></a>বাংলাদেশ</li>
+          <li><a href=""></a>আন্তর্জাতিক</li>
+          <li><a href=""></a>অর্থনীতি</li>
+          <li><a href=""></a>খেলা</li>
+          <li><a href=""></a>মতামত</li>
+          <li><a href=""></a>বিনোদন</li>
+          <li><a href=""></a>ফিচার</li>
+        </ul>
+      </div>
+      <div class="div_last">
+        <ul>
+          <li><img src="pic.png" alt="" />প্রচ্ছদ</li>
+          <li><img src="video.png" alt="" />বাংলাদেশ</li>
+        </ul>
+      </div>
+    </div>
+    <div class="last_footer">
+      <p>
+        © স্বত্ব প্রথম আলো ১৯৯৮ - ২০২০<br />
+        সম্পাদক ও প্রকাশক: মতিউর রহমান<br />
+        প্রগতি ইনস্যুরেন্স ভবন, ২০-২১ কারওয়ান বাজার, ঢাকা ১২১৫<br />
+        <br />
+        ফোন: ৮১৮০০৭৮-৮১, ফ্যাক্স: ৫৫০১২২০০, ৫৫০১২২১১ ইমেইল:
+        info@prothomalo.com<br />
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
